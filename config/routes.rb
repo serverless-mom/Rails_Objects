@@ -1,4 +1,11 @@
 ThirdTime::Application.routes.draw do
+  resources :dogs
+
+  resources :cats
+
+  resources :users
+  root 'cats#new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
