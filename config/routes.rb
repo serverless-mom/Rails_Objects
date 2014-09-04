@@ -1,4 +1,6 @@
 ThirdTime::Application.routes.draw do
+  resources :microposts
+
   resources :dogs
 
   resources :cats
